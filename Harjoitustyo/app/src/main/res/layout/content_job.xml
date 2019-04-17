@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.joonas.harjoitustyo.JobActivity"
+    tools:showIn="@layout/app_bar_job"
+    >
+
+
+        <TextView
+            android:id="@+id/txt_job_id_header"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="ID"/>
+
+        <TextView
+            android:id="@+id/txt_job_desc_header"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt_job_id_header"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Kuvaus"/>
+        <TextView
+            android:id="@+id/txt_job_deadline_header"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt_job_desc_header"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Deadline"/>
+        <TextView
+            android:id="@+id/txt_job_status_header"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt_job_deadline_header"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Tila"/>
+        <View
+            android:id="@+id/header_view"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#3D5AFF"
+            android:layout_below="@+id/txt_job_id_header">
+
+        </View>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_job"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/header_view"
+
+        android:choiceMode="singleChoice"
+        android:listSelector="@color/selected_item"/>
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>1</job_id>
+        <desc>Lumitöitä, Puistokatu 5</desc>
+        <deadline>10.3.2016</deadline>
+        <tunnit>0</tunnit>
+        <suoritteet>0</suoritteet>
+        <selite>0</selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>2</job_id>
+        <desc>Piha-alueen hiekotus, Sairaalakatu 12</desc>
+        <deadline>13.3.2016</deadline>
+        <tunnit>0</tunnit>
+        <suoritteet>0</suoritteet>
+        <selite>0</selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>3</job_id>
+        <desc>Ulkovaraston siivous, Kirkkokatu 31 A</desc>
+        <deadline>11.4.2016</deadline>
+        <tunnit>0</tunnit>
+        <suoritteet>0</suoritteet>
+        <selite>0</selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>4</job_id>
+        <desc>Lumitöitä, Satamakatu 2</desc>
+        <deadline>1.3.2016</deadline>
+        <tunnit>0</tunnit>
+        <suoritteet>0</suoritteet>
+        <selite>0</selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>5</job_id>
+        <desc>Rappukäytävän maalaus, Asemakatu 25</desc>
+        <deadline>27.3.2016</deadline>
+        <tunnit>0</tunnit>
+        <suoritteet>0</suoritteet>
+        <selite>0</selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>6</job_id>
+        <desc>Piha-alueen hiekotus, Puijonkatu 17</desc>
+        <deadline>10.7.2016</deadline>
+        <tunnit>0</tunnit>
+        <suoritteet>0</suoritteet>
+        <selite>0</selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>7</job_id>
+        <desc>Varaston lampun vaihto, Minna Canthin katu 16 </desc>
+        <deadline>10.8.2016</deadline>
+        <tunnit>0</tunnit>
+        <suoritteet>0</suoritteet>
+        <selite>0</selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>8</job_id>
+        <desc>Lumitöitä, Puistokatu 5 A</desc>
+        <deadline>10.9.2016</deadline>
+        <tunnit></tunnit>
+        <suoritteet></suoritteet>
+        <selite></selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>9</job_id>
+        <desc>Piha-alueen hiekotus, Puistokatu 5 A</desc>
+        <deadline>11.9.2016</deadline>
+        <tunnit></tunnit>
+        <suoritteet></suoritteet>
+        <selite></selite>
+    </job>
+    <job>
+        <status>Uusi</status>
+        <user_id></user_id>
+        <job_id>10</job_id>
+        <desc>Häkkivaraston siivous, Maaherrankatu 32</desc>
+        <deadline>12.9.2016</deadline>
+        <tunnit></tunnit>
+        <suoritteet></suoritteet>
+        <selite></selite>
+    </job>
+</jobs>

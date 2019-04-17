@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_directions_run_white_24dp"
+            android:title="Kirjaudu ulos" />
+        <item
+            android:id="@+id/nav_resetPW"
+            android:icon="@drawable/ic_vpn_key_white_24dp"
+            android:title="Resetoi salasana" />
+        <item
+            android:id="@+id/nav_completedJobs"
+            android:icon="@drawable/ic_playlist_add_check_white_24dp"
+            android:title="Valmiit työt" />
+
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Tallenna" />
+    </group>
+
+    <item android:title="Tila">
+        <menu>
+            <item
+                android:id="@+id/nav_offline_toggle"
+                android:icon="@drawable/ic_language_white_24dp"
+                android:title="@string/offline_title" />
+        </menu>
+
+    </item>
+
+</menu>

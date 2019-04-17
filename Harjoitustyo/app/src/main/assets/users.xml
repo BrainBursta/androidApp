@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <id>1</id>
+        <nimi>Joonas</nimi>
+        <tunnus>J00nas</tunnus>
+        <salasana>salasana</salasana>
+        <info>Admin</info>
+    </user>
+</users>
+

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Harjoitustyo</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Käyttäjätunnus</string>
+    <string name="prompt_password">Salasana</string>
+    <string name="action_sign_in">Kirjaudu</string>
+    <string name="action_register">Luo tunnus</string>
+    <string name="action_sign_in_short">Kirjaudu</string>
+    <string name="error_invalid_email">Tunnus virheellinen..</string>
+    <string name="error_short_password">Salasana liian lyhyt..</string>
+    <string name="error_incorrect_password">Virheellinen salasana..</string>
+    <string name="error_field_required">Kenttä ei voi olla tyhjä..</string>
+
+    <string name="error_nimi_puuttuu">Nimi on pakollinen</string>
+    <!--Register strings -->
+    <string name="error_userId_puuttuu">Käyttäjä id on pakollinen</string>
+    <string name="error_salasana_puuttuu">Salasana on pakollinen</string>
+    <string name="error_passwords_dont_match">Uudet salasanat eivät täsmää</string>
+
+    <string name="title_activity_register">Luo tunnus</string>
+    <!--Activity otsikot -->
+    <string name="title_activity_job">Työlista</string>
+    <string name="title_activity_login">Kirjaudu tai luo tunnus</string>
+    <string name="offline_title">Offline</string>
+    <string name="online_title">Offline</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Asetukset</string>
+
+    <string name="job_id_title">ID</string>
+    <!-- Listview otsikot -->
+    <string name="job_desc_title">Kuvaus</string>
+    <string name="job_deadline_title">Deadline</string>
+    <string name="job_status_title">Tila</string>
+    <string-array name="job_id"> <!-- Listview kovakoodatut tiedot -->
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="job_desc">
+        <item>desc1</item>
+        <item>desc2</item>
+        <item>desc3</item>
+        <item>desc4</item>
+        <item>desc5</item>
+        <item>desc6</item>
+        <item>desc7</item>
+        <item>desc8</item>
+    </string-array>
+    <string-array name="job_deadline">
+        <item>12.1</item>
+        <item>12.2</item>
+        <item>12.3</item>
+        <item>12.4</item>
+        <item>12.5</item>
+        <item>12.6</item>
+        <item>12.7</item>
+        <item>12.8</item>
+    </string-array>
+    <string-array name="job_status">
+        <item>Uusi</item>
+        <item>Uusi</item>
+        <item>Uusi</item>
+        <item>Uusi</item>
+        <item>Uusi</item>
+        <item>Uusi</item>
+        <item>Uusi</item>
+        <item>Uusi</item>
+    </string-array>
+    <string name="title_activity_job_complete">Valmiit työt</string>
+</resources>
